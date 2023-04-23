@@ -1,0 +1,37 @@
+body {
+    background-image: linear-gradient(rgb(0, 162, 255), yellow);
+    font-family: 'Schibsted Grotesk', sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+ }
+ h1 {
+    background: linear-gradient(to right,#33F216, #F2792E, #A64307);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;   
+    -moz-background-clip: text;
+    background-clip: text;
+    animation: slide 3s linear infinite alternate;
+    background-size: 200% auto;
+    font-size: 62px;
+}
+h2 {
+    font-size: 50px;
+}
+@keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+ol {
+    text-align: center;
+    margin:auto;
+}
+.container {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
